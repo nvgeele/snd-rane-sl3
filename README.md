@@ -165,13 +165,6 @@ aplay -D hw:CARD=SL3,DEV=0 audiofile.wav
 arecord -D hw:CARD=SL3,DEV=0 -f S24_3LE -r 44100 -c 6 output.wav
 ```
 
-## Development
-
-For details on the reverse engineering process and USB protocol documentation, see:
-- `analysis/README.md` - Comprehensive analysis of driver binaries
-- `RANE_SL3_SPECIFICATION.md` - USB protocol specification
-- `drivers/` - Original driver artifacts for reference
-
 ## Troubleshooting
 
 If the device isn't recognized:
